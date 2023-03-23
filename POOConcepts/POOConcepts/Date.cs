@@ -36,7 +36,7 @@ namespace POOConcepts
                 return day;
             }
 
-            throw new DayException("Invalid day");
+            throw new DayException("Sorry Invalid day");
         }
         private bool IsLeapYear(int year)
         {
