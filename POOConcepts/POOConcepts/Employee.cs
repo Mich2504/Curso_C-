@@ -1,6 +1,7 @@
 ﻿namespace POOConcepts
 {//Definicion de clase abstracta
-    public abstract class Employee// no tiene constructor porque se genera uno generico
+    public abstract class Employee: IPay // implementa la interfaz
+        // no tiene constructor porque se genera uno generico
     {
         // pro tab tab crea propiedad
         public int Id { get; set; }

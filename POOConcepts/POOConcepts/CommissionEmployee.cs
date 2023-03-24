@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POOConcepts
 {
-    internal class CommissionEmployee : Employee// se le heredan los metodos
+    public class CommissionEmployee : Employee// se le heredan los metodos
     {
         public float CommissionPercentaje { get; set; }// porque es un porcentaje por eso es float
         public decimal Sales { get; set; }
